@@ -1,6 +1,9 @@
 {
   "name": "todo-app-backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.20.1"
+  },
   "description": "",
   "main": "src/loader.js",
   "scripts": {
