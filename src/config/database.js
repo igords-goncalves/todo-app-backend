@@ -7,10 +7,7 @@
 const mongoose = require("mongoose")
 mongoose.Promise = global.Promise;
 
-const uri = "mongodb://localhost:27017"
-const dbName = "todo"
-
-module.exports = mongoose.connect(`${uri}/${dbName}`, {
+module.exports = mongoose.connect("mongodb://localhost:27017/todo", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
